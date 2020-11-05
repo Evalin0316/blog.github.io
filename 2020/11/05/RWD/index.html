@@ -22,16 +22,20 @@
     var CONFIG = {"hostname":"evalin0316.github.io","root":"/blog.github.io/","scheme":"Muse","version":"8.0.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜尋...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}};
   </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Jill&#39;s blog">
-<meta property="og:url" content="https://evalin0316.github.io/blog.github.io/archives/2020/index.html">
+  <meta name="description" content="關於 CSS3_Media-Query斷點規劃+大網站設計範例 PC - 1200px iPad - 768px iPad以下 - 767px iPhone 6 Plus - 414px (視專案族群) iPhone 6 - 375px (視專案族群) iPhone 5、SE - 320px">
+<meta property="og:type" content="article">
+<meta property="og:title" content="RWD">
+<meta property="og:url" content="https://evalin0316.github.io/blog.github.io/2020/11/05/RWD/index.html">
 <meta property="og:site_name" content="Jill&#39;s blog">
+<meta property="og:description" content="關於 CSS3_Media-Query斷點規劃+大網站設計範例 PC - 1200px iPad - 768px iPad以下 - 767px iPhone 6 Plus - 414px (視專案族群) iPhone 6 - 375px (視專案族群) iPhone 5、SE - 320px">
 <meta property="og:locale" content="zh_TW">
+<meta property="article:published_time" content="2020-11-05T04:02:00.000Z">
+<meta property="article:modified_time" content="2020-11-05T10:54:12.527Z">
 <meta property="article:author" content="Jill">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="https://evalin0316.github.io/blog.github.io/archives/2020/">
+<link rel="canonical" href="https://evalin0316.github.io/blog.github.io/2020/11/05/RWD/">
 
 
 <script class="page-configurations">
@@ -39,12 +43,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'zh-TW'
   };
 </script>
 
-  <title>歸檔 | Jill's blog</title>
+  <title>RWD | Jill's blog</title>
   
 
 
@@ -133,7 +137,7 @@
 
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           文章目錄
@@ -145,6 +149,7 @@
 
       <!--noindex-->
       <section class="post-toc-wrap sidebar-panel">
+          <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%97%9C%E6%96%BC-CSS3-Media-Query"><span class="nav-number">1.</span> <span class="nav-text">關於 CSS3_Media-Query</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#%E6%96%B7%E9%BB%9E%E8%A6%8F%E5%8A%83-%E5%A4%A7%E7%B6%B2%E7%AB%99%E8%A8%AD%E8%A8%88%E7%AF%84%E4%BE%8B"><span class="nav-number">1.0.1.</span> <span class="nav-text">斷點規劃+大網站設計範例</span></a></li></ol></li></ol></li></ol></div>
       </section>
       <!--/noindex-->
 
@@ -185,72 +190,88 @@
 </noscript>
 
 
-    <div class="main-inner archive posts-collapse">
+    <div class="main-inner post posts-expand">
       
 
       
 
+    
   
   
-  
-  <div class="post-block">
-    <div class="post-content">
-      <div class="collection-title">
-        <span class="collection-header">嗯..! 目前共有 2 篇文章。 繼續努力。</span>
-      </div>
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
+    <link itemprop="mainEntityOfPage" href="https://evalin0316.github.io/blog.github.io/2020/11/05/RWD/">
 
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/blog.github.io/images/avatar.gif">
+      <meta itemprop="name" content="Jill">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jill's blog">
+    </span>
+
+    
+    
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          RWD
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">發表於</span>
       
-    <div class="collection-year">
-      <span class="collection-header">2020</span>
+
+      <time title="創建時間：2020-11-05 12:02:00 / 修改時間：18:54:12" itemprop="dateCreated datePublished" datetime="2020-11-05T12:02:00+08:00">2020-11-05</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <h4 id="關於-CSS3-Media-Query"><a href="#關於-CSS3-Media-Query" class="headerlink" title="關於 CSS3_Media-Query"></a>關於 CSS3_Media-Query</h4><h6 id="斷點規劃-大網站設計範例"><a href="#斷點規劃-大網站設計範例" class="headerlink" title="斷點規劃+大網站設計範例"></a>斷點規劃+大網站設計範例</h6><ul>
+<li>PC - 1200px</li>
+<li>iPad - 768px</li>
+<li>iPad以下 - 767px</li>
+<li>iPhone 6 Plus - 414px (視專案族群)</li>
+<li>iPhone 6 - 375px (視專案族群)</li>
+<li>iPhone 5、SE - 320px</li>
+</ul>
+
     </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2020-11-05T12:02:00+08:00"
-              content="2020-11-05">
-          11-05
-        </time>
-      </div>
+    
+    
+    
 
-      <div class="post-title">
-          <a class="post-title-link" href="/blog.github.io/2020/11/05/RWD/" itemprop="url">
-            <span itemprop="name">RWD</span>
-          </a>
-      </div>
+    <footer class="post-footer">
 
-      
-    </header>
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/blog.github.io/2020/11/03/hello-world/" rel="prev" title="HI">
+                  <i class="fa fa-chevron-left"></i> HI
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
   </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2020-11-03T17:01:14+08:00"
-              content="2020-11-03">
-          11-03
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/blog.github.io/2020/11/03/hello-world/" itemprop="url">
-            <span itemprop="name">HI</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-
-    </div>
-  </div>
   
   
-  
-
   
 
 
