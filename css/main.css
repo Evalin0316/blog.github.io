@@ -2503,7 +2503,9 @@ ul.breadcrumb li:last-child {
   padding: 5px;
 }
 .brand {
-  background: var(--btn-default-bg);
+  /* background: var(--btn-default-bg); */
+  box-shadow: 0 0 5px 3px rgb(0 150 200);
+  background: rgb(0 150 200);
 }
 .header-inner {
   padding-top: 100px;
